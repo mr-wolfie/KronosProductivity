@@ -1,0 +1,2 @@
+#base sum hours for date range:
+SELECT EMP_ID,sum(HOURS) FROM KRO_TIME WHERE REC_TYPE < 1 and REC_DATE between ':FromDate' AND ':ToDate'
